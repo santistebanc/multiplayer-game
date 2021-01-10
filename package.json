@@ -1,0 +1,26 @@
+{
+  "name": "phaser-shooter-multiplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Carlos Santisteban",
+  "license": "MIT",
+  "dependencies": {
+    "@geckos.io/phaser-on-nodejs": "^1.2.3",
+    "@geckos.io/snapshot-interpolation": "^1.0.1",
+    "express": "^4.17.1",
+    "phaser": "3.24.1",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
